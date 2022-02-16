@@ -49,6 +49,9 @@ if [ $phpini != "default" ]; then
   else
     echo "You have changed the php_ini variable, but the new file could not be found! Default php.ini file will be used instead."
   fi
+  else 
+  echo "end php.ini procedure"
+  fi
 
 
 if [ $ssl = "true" ] && [ $default_conf = "default" ]; then
