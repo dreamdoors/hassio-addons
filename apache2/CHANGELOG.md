@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.2
+- Resolution Run.sh
+
 ## 1.1.1
 - Gui modif
 
