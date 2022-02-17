@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.2.1
+- add trace httpd + php
+
 ## 1.1.2
 - Resolution Run.sh
 
