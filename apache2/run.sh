@@ -162,7 +162,6 @@ if [ "$default_ssl_conf" != "default" ]; then
   fi
 fi
 
-cp /etc/php7/php.ini /share/php.ini
 cp /etc/apache2/sites-enabled/000-default.conf /share/000-default.conf
 cp /etc/apache2/httpd.conf /share/httpd.conf
 
