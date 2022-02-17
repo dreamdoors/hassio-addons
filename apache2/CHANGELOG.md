@@ -1,4 +1,6 @@
 # Changelog
+## 1.1.3
+- Remove trace
 
 ## 1.1.2.1
 - add trace httpd + php
