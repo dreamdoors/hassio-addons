@@ -166,9 +166,5 @@ fi
 echo "Here is your web file architecture."
 ls -l $webrootdocker
 
-cp /etc/apache2/httpd.conf /share/httpd.conf
-cp /etc/apache2/sites-enabled/000-default.conf /share/000-default.conf
-cp /etc/apache2/sites-enabled/000-default-le-ssl.conf /share/000-default-le-ssl.conf
-
 echo "Starting Apache2..."
 exec /usr/sbin/httpd -D FOREGROUND
