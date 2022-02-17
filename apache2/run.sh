@@ -162,10 +162,6 @@ if [ "$default_ssl_conf" != "default" ]; then
   fi
 fi
 
-cp /etc/apache2/sites-enabled/000-default.conf /share/000-default.conf
-cp /etc/apache2/httpd.conf /share/httpd.conf
-
-
 echo "Here is your web file architecture."
 ls -l $webrootdocker
 
