@@ -94,6 +94,9 @@ if [ $ssl = "true" ] && [ $default_conf = "default" ]; then
     echo "SSLCertificateKeyFile /ssl/$keyfile"  >> /etc/apache2/sites-enabled/000-default-le-ssl.conf
     echo "</VirtualHost>"  >> /etc/apache2/sites-enabled/000-default-le-ssl.conf
     echo "</IfModule>"  >> /etc/apache2/sites-enabled/000-default-le-ssl.conf
+    cp /etc/apache2/httpd.conf /share/httpd.conf
+    cp /etc/apache2/sites-enabled/000-default.conf /share/000-default.conf
+    cp /etc/apache2/sites-enabled/000-default-le-ssl.conf /share/000-default-le-ssl.conf
 else
     echo "SSL is deactivated and/or you are using a custom config."
 fi
