@@ -1,4 +1,7 @@
 # Changelog
+## 1.1.3.1
+- add trace httpd
+
 ## 1.1.3
 - Remove trace
 
