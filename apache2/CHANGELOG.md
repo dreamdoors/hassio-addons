@@ -2,6 +2,7 @@
 ## 1.1.5
 - Add Reverse Proxy
 - Add vHost
+- Add Logs
 
 ## 1.1.3
 - Remove trace
