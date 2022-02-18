@@ -1,4 +1,7 @@
 # Changelog
+## 1.1.5.2
+- doc
+
 ## 1.1.5
 - Add Reverse Proxy
 - Add vHost
