@@ -2,9 +2,9 @@
 ![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports armhf Architecture][armhf-shield] ![Supports armv7 Architecture][armv7-shield] ![Supports i386 Architecture][i386-shield]
 ![Project Maintenance][maintenance-shield]
 
-Apache2 Webserver for Homeassistant OS
+Apache2 & PHP 7 Webserver for Homeassistant OS
 
-![Ingress Support](images/ingress.png)
+
 
 ## About
 
@@ -91,6 +91,7 @@ default -> the default apache2 addon file will be used
 get_config -> Get a copy of the default apache2 addon config file to your /share folder.
 
 path/to/your/new/apache2.conf -> Please change the location depending where your custom 000-default.conf / 000-default-le-ssl.conf file is, f.e.: /share/apache2/000-default.conf <br />
+
 More Information: https://cwiki.apache.org/confluence/display/HTTPD/ExampleVhosts<br /> <br /> 
 Please note, that I wont give any support if you are using custom apache2 config files and are recieving any apache2 errors!
 
@@ -111,20 +112,15 @@ This option is optional. Set a password to access the webfiles.
 Enables/Disables SSL (HTTPS) on the web interface. Set it `true` to enable it, `false` otherwise.
 
 
-
 **Note**: _The files MUST be stored in `/ssl/`, which is the default_
 
-## Ingress
-
-This addon supports Homeassistant Ingress. Until now it seems only to work if you enable SSL!
-And also I am sorry, but I cant support all your websites. Basic HTML Websites will work great with ingress, the more advanced the page is, the harder it is to support ingress.
 
 ## Support
 
 Got questions or problems?
 
 You can [open an issue here][issue] GitHub.
-Please keep in mind, that this software is only tested on armv7 running on a Raspberry Pi 4.
+Please keep in mind, that this software is only tested on amd64 running on a HA-OS.
 
 ## Authors & contributors
 
