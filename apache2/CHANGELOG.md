@@ -1,11 +1,10 @@
 # Changelog
-## 1.1.5.2
-- doc
 
-## 1.1.5
+## 1.2
 - Add Reverse Proxy
 - Add vHost
 - Add Logs
+- Add doc
 
 ## 1.1.3
 - Remove trace
