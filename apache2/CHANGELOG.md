@@ -1,7 +1,11 @@
 # Changelog
+## 1.1.5
+- Add Reverse Proxy
+- Add vHost
+
 ## 1.1.3
 - Remove trace
-- 
+
 ## 1.1.3.1
 - add trace httpd
 
