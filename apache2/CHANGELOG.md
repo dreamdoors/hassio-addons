@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.2.1
+- bump hassio-addon-base to V11.1.1
+
 ## 1.2
 - Add Reverse Proxy
 - Add vHost
