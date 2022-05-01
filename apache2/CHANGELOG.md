@@ -1,4 +1,6 @@
 # Changelog
+## 1.3.0
+- add mosquitto
 
 ## 1.2.1
 - bump hassio-addon-base to V11.1.1
