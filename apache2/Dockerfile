@@ -1,10 +1,11 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:11.1.1
+ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:11.1.2
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 ENV LANG C.UTF-8
 
 # Create directory for apache2 to store PID file
 RUN mkdir /run/apache2
+
 RUN apk --no-cache add apache2 php7-apache2 libxml2-dev apache2-utils apache2-mod-wsgi apache2-ssl apache2-proxy
 RUN apk --no-cache add php7 php7-dev php7-fpm php7-mysqli php7-opcache php7-gd php7-zlib php7-curl php7-phar php7-json php7-mbstring php7-mcrypt php7-zip php7-pdo php7-pdo_mysql php7-iconv php7-dom php7-session php7-intl php7-soap php7-fileinfo php7-xml php7-ctype php7-exif php7-imagick
 RUN apk --no-cache add mosquitto mosquitto-dev
