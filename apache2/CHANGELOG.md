@@ -1,5 +1,5 @@
 # Changelog
-## 1.4.3.8
+## 1.4.4
 - fix update error
 
 ## 1.4.0
