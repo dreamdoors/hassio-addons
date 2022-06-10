@@ -16,7 +16,7 @@ The Apache HTTP Server is a project of The Apache Software Foundation.
 ### Full Version
 
 This docker image comes with: apache2 mariadb-client php7-apache2 libxml2-dev apache2-utils apache2-mod-wsgi apache2-ssl apache2-proxy<br /> 
-The following php8 extensions will be installed: add php7 php7-dev php7-fpm php7-mysqli php7-opcache php7-gd php7-zlib php7-curl php7-phar php7-json php7-mbstring php7-mcrypt php7-zip php7-pdo php7-pdo_mysql php7-iconv php7-dom php7-session php7-intl php7-soap php7-fileinfo php7-xml php7-ctype php7-exif php7-imagick<br /> 
+The following php8 extensions will be installed: add php81 php81-dev php81-fpm php81-mysqli php81-opcache php81-gd zlib php81-curl php81-phar php81-mbstring php8-pecl-mcrypt php81-zip php81-pdo php81-pdo_mysql php81-iconv php81-dom php81-session php81-intl php81-soap php81-fileinfo php81-xml php81-ctype php8-exif php8-pecl-imagick php8-json<br /> 
 
 
 
