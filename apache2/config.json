@@ -2,7 +2,7 @@
     "name": "Apache2 & php 8",
     "version": "1.4.3.3",
     "slug": "apache2",
-    "description": "OpenSource Webserver",
+    "description": "OpenSource Webserver apache & php",
     "url": "https://github.com/dreamdoors/hassio-addons/tree/master/apache2",
    "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
     "startup": "application",
