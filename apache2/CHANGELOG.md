@@ -1,4 +1,7 @@
 # Changelog
+## 1.4.3
+- fix update error
+
 ## 1.4.2
 - fix update error
 
