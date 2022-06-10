@@ -6,8 +6,8 @@ ENV LANG C.UTF-8
 # Create directory for apache2 to store PID file
 RUN mkdir /run/apache2
 
-RUN apk --no-cache add apache2 php81-apache2 libxml2-dev apache2-utils apache2-mod-wsgi apache2-ssl apache2-proxy
-RUN apk --no-cache add php81 php81-dev php81-fpm php81-mysqli php81-opcache php81-gd php81-zlib php81-curl php81-phar php81-json php81-mbstring php8-pecl-mcrypt php81-zip php81-pdo php81-pdo_mysql php81-iconv php81-dom php81-session php81-intl php81-soap php81-fileinfo php81-xml php81-ctype php8-pecl-exif php8-pecl-imagick
+RUN apk --no-cache add apache2 php81-apache2 libxml2-dev apache2-utils apache2-mod-wsgi apache2-ssl
+RUN apk --no-cache add php81 php81-dev php81-fpm php81-mysqli php81-opcache php81-gd zlib php81-curl php81-phar php81-mbstring php8-pecl-mcrypt php81-zip php81-pdo php81-pdo_mysql php81-iconv php81-dom php81-session php81-intl php81-soap php81-fileinfo php81-xml php81-ctype
 RUN apk --no-cache add mosquitto mosquitto-dev
 RUN apk --no-cache add mariadb-client
 
@@ -18,7 +18,7 @@ RUN wget https://gitlab.com/rilian-la-te/musl-locales/-/archive/master/musl-loca
       && cd musl-locales-master \
       && cmake -DLOCALE_PROFILE=OFF -D CMAKE_INSTALL_PREFIX:PATH=/usr . && make && make install \
       && cd .. && rm -r musl-locales-master
-      
+
 #Configure Logging
 RUN sed -i -r 's@Errorlog .*@Errorlog /dev/stderr@i' /etc/apache2/httpd.conf
 RUN echo "Transferlog /dev/stdout" >> /etc/apache2/httpd.conf
