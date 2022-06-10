@@ -1,6 +1,6 @@
   {
     "name": "Apache2 & php 8",
-    "version": "1.4.3.4",
+    "version": "1.4.3.5",
     "slug": "apache2",
     "description": "OpenSource Webserver apache & php",
     "url": "https://github.com/dreamdoors/hassio-addons/tree/master/apache2",
