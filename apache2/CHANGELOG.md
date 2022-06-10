@@ -1,4 +1,7 @@
 # Changelog
+## 1.4.1
+- fix update error
+
 ## 1.4.0
 - bump hassio-addon-base to V12.0.0
 - bump PHP to PHP8.1
