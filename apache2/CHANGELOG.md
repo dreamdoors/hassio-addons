@@ -1,4 +1,10 @@
 # Changelog
+## 1.4.0
+- bump hassio-addon-base to V12.0.0
+- bump PHP to PHP8.1
+- fix update error
+- fix custom php path not working since php8.1 update
+
 ## 1.3.1
 - bump hassio-addon-base to V11.1.2
 
