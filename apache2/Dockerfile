@@ -11,7 +11,7 @@ RUN apk --no-cache add php81 php81-dev php81-fpm php81-mysqli php81-opcache php8
 RUN apk --no-cache add mosquitto mosquitto-dev
 RUN apk --no-cache add mariadb-client
 
-#musl-locales/php7-locales
+#musl-locales/php-locales
 RUN apk add --no-cache cmake make musl-dev gcc gettext-dev libintl 
 RUN wget https://gitlab.com/rilian-la-te/musl-locales/-/archive/master/musl-locales-master.zip \
     && unzip musl-locales-master.zip \
