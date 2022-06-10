@@ -2,7 +2,7 @@
 ![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports armhf Architecture][armhf-shield] ![Supports armv7 Architecture][armv7-shield] ![Supports i386 Architecture][i386-shield]
 ![Project Maintenance][maintenance-shield]
 
-Apache2 & PHP 7 Webserver for Homeassistant OS
+Apache2 & PHP 8 Webserver for Homeassistant OS
 
 
 
@@ -16,7 +16,7 @@ The Apache HTTP Server is a project of The Apache Software Foundation.
 ### Full Version
 
 This docker image comes with: apache2 mariadb-client php7-apache2 libxml2-dev apache2-utils apache2-mod-wsgi apache2-ssl apache2-proxy<br /> 
-The following php7 extensions will be installed: add php7 php7-dev php7-fpm php7-mysqli php7-opcache php7-gd php7-zlib php7-curl php7-phar php7-json php7-mbstring php7-mcrypt php7-zip php7-pdo php7-pdo_mysql php7-iconv php7-dom php7-session php7-intl php7-soap php7-fileinfo php7-xml php7-ctype php7-exif php7-imagick<br /> 
+The following php8 extensions will be installed: add php7 php7-dev php7-fpm php7-mysqli php7-opcache php7-gd php7-zlib php7-curl php7-phar php7-json php7-mbstring php7-mcrypt php7-zip php7-pdo php7-pdo_mysql php7-iconv php7-dom php7-session php7-intl php7-soap php7-fileinfo php7-xml php7-ctype php7-exif php7-imagick<br /> 
 
 
 
@@ -151,7 +151,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
