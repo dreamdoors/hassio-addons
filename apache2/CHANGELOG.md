@@ -1,4 +1,7 @@
 # Changelog
+## 1.5
+- add support for xdebug
+
 ## 1.4.4
 - fix update error
 
