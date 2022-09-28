@@ -1,4 +1,6 @@
 # Changelog
+## 1.5.1
+- fix config file not found & rewrite the whole addon
 ## 1.5
 - add support for xdebug
 
